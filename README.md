@@ -1,8 +1,11 @@
 # image-benchmark
 Benchmarking image file formats
 
+## Motivation
+I was browsing the PEP repository, and saw a table comparing image formats in the README. It was missing quite a lot of formats, and only had compression/decompression time for a few formats. I saw there was a PR to fix some of these issues, and a comment linking to [this webpage](https://meow.catt0s.win/test_images/formats/). 
+
 ## Why
-The goal is to create a program that programmatically benchmarks how different formats perform, and allow users to compare and contrast what the tradeoffs of using a format are. 
+The goal is to create a program that programmatically benchmarks how different formats perform, and allow users to compare and contrast what the tradeoffs of using a format are.
 Note:: There are undoubtedly flaws with the methodology used here. For instance, the libraries used may have outstanding optimizations. 
 
 ## What
@@ -11,7 +14,6 @@ Note:: There are undoubtedly flaws with the methodology used here. For instance,
 * Decompression Time
 * End File Size
 * Compression Ratio
-
 I am considering comparing libraries as well.
 ### Formats: 
 * JPEG [Wiki](https://en.wikipedia.org/wiki/JPEG) [Website](https://jpeg.org/jpeg/)
@@ -41,3 +43,9 @@ TODO, trying to come up with a good test set. Looking into items to provide comb
 ### Caveats
 * Present caveats about formats, such as support for HDR, Lossless, multi-frame (animated), maximum colors
 * Attempt to render all formats in browser to show limited support 
+* How do measure visual quality?
+### Variables
+* Speed settings (such as faster/slower for less/more compressed images)
+* Quality settings (how much can you save with quality reductions?)
+  * TODO: How to standardize quality? - JPG compression will look worse than a comperable JXL, for example. Quality settings are not a standard. Perhaps go to qualities to get some percent reduciton in file size will be a good way to do this?
+* TODO: Variables specific for formats?
