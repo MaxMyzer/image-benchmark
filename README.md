@@ -12,14 +12,14 @@ Note:: There are undoubtedly flaws with the methodology used here. For instance,
 * End File Size
 * Compression Ratio
 ### Formats: 
-* JPEG
+* JPEG [Wiki](https://en.wikipedia.org/wiki/JPEG) [Website](https://jpeg.org/jpeg/)
 * PNG [Wiki](https://en.wikipedia.org/wiki/PNG)
   * PNG 3.0
-  * APNG
+  * APNG [Wiki](https://en.wikipedia.org/wiki/APNG)
 * GIF [Wiki](https://en.wikipedia.org/wiki/GIF)
 * BMP [Wiki](https://en.wikipedia.org/wiki/BMP_file_format)
 * QOI [Wiki](https://en.wikipedia.org/wiki/QOI_(image_format)) [GitHub](https://github.com/phoboslab/qoi) [Website](https://qoiformat.org/)
-* FIT
+* FIT [GitHub](https://github.com/open-source-firmware/flat-image-tree)
 * PEP [GitHub](https://github.com/ENDESGA/PEP)
 * JPEG XL [Wiki](https://en.wikipedia.org/wiki/JPEG_XL) [GitHib](https://github.com/libjxl/libjxl) [Website](https://jpeg.org/jpegxl/)
 * HEIF
@@ -36,3 +36,6 @@ TODO, trying to come up with a good test set. Looking into items to provide comb
 * Enormous images (space photos?)
 * Digital artwork
 * "everyday" images
+### Caveats
+* Present caveats about formats, such as support for HDR, Lossless, multi-frame (animated), maximum colors
+* Attempt to render all formats in browser to show limited support 
