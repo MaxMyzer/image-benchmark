@@ -11,6 +11,7 @@ Note:: There are undoubtedly flaws with the methodology used here. For instance,
 * Decompression Time
 * End File Size
 * Compression Ratio
+
 I am considering comparing libraries as well.
 ### Formats: 
 * JPEG [Wiki](https://en.wikipedia.org/wiki/JPEG) [Website](https://jpeg.org/jpeg/)
