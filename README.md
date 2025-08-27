@@ -25,7 +25,7 @@ I am considering comparing libraries as well.
 * QOI [Wiki](https://en.wikipedia.org/wiki/QOI_(image_format)) [GitHub](https://github.com/phoboslab/qoi) [Website](https://qoiformat.org/)
 * FIT [GitHub](https://github.com/open-source-firmware/flat-image-tree)
 * PEP [GitHub](https://github.com/ENDESGA/PEP)
-* JPEG XL [Wiki](https://en.wikipedia.org/wiki/JPEG_XL) [GitHib](https://github.com/libjxl/libjxl) [Website](https://jpeg.org/jpegxl/)
+* JPEG XL [Wiki](https://en.wikipedia.org/wiki/JPEG_XL) [GitHub](https://github.com/libjxl/libjxl) [Website](https://jpeg.org/jpegxl/)
 * HEIF
   * AVIF [Wiki](https://en.wikipedia.org/wiki/AVIF) [Website](https://aomediacodec.github.io/av1-avif/)
 * WebP [Wiki](https://en.wikipedia.org/wiki/WebP) [Repo](https://chromium.googlesource.com/webm/libwebp) [Website](https://developers.google.com/speed/webp)
