@@ -1,8 +1,9 @@
 # image-benchmark
 Benchmarking image file formats
 
-Status: Planning stage
-
+Status: Planning stage. If you have questions/suggestions, please open a discussion. 
+Note: This is just a side project for me to work on in my spare time. Therefore, the development will be very slow. 
+Issues and PRs welcome. 
 
 ## Motivation
 I was browsing the [PEP repository](https://github.com/ENDESGA/PEP), and saw a table comparing image formats in the README. It was missing quite a lot of formats, and only had compression/decompression time for a few formats. I saw there was a PR to fix some of these issues, and a comment linking to [this webpage](https://meow.catt0s.win/test_images/formats/). 
